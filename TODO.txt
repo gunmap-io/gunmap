@@ -1,0 +1,41 @@
+PHASE 1: Publicly accessible gunmap, feeds from Odysee
+PHASE 1.5: Load data from DEFCAD into GUNMAP
+PHASE 2: Allow people to submit their own metadata / reconciliation
+PHASE 3: Local version
+PHASE 4: Increase feed to feed from Thingiverse, DEFCAD, etc.
+
+PHASE 1:
+  GUNMAP TODO
+    Created date, organization, author - special filter fields
+    Create theme
+    Add counts and sorting for filters
+
+  CARTOGRAPHER TODO:
+    Refresh source and website nightly (or every hour, etc.)
+
+IMAGE PUBLISHER:
+
+  LBRY Publish:
+  {
+    "method": "publish", 
+    "params": {
+      "name": "image-test-2",
+          "title": "Image Test 2",
+      "bid": "0.001", 
+      "file_path": "/home/gwalliman/Dropbox/T0Q4G6WKD-U0Q5RMARM-d1c43f5b2e9d-512.png",
+          "file_name": "T0Q4G6WKD-U0Q5RMARM-d1c43f5b2e9d-512.png",
+      "validate_file": false, 
+      "optimize_file": false,
+          "channel_id": "c3292ab90c26be6b928c62438a84f308d450ece3",
+      "tags": ["asdf", "1234"],
+      "languages": [], 
+      "locations": [], 
+      "channel_account_id": [], 
+      "funding_account_ids": [], 
+      "preview": false, 
+      "blocking": false
+    }
+  }  
+
+  Resultant image is: 
+    https://player.odycdn.com/v6/streams/<claim_id>/<first_6_chars_of_sd_hash>.mp4

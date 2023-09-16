@@ -1,0 +1,6 @@
+*.sql
+*.db
+node_modules
+package-lock.json
+gunmap_site/content
+*.swp
